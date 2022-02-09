@@ -1,0 +1,21 @@
+.gridContainer{
+  display: grid;
+  border: none;
+  grid-template-columns: 4fr;
+  grid-template-rows: 2fr;
+  height: 480px;
+}
+.gridItemUno{
+  height: 145px;
+  padding-top: 30px;
+  text-align: justify; 
+}
+.gridItemDos{
+  height: 145px;    
+}
+#fotoLogo{
+  margin: 0%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}

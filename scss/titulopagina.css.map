@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,UAAU,EAAC,IAAI;EACf,YAAY,EAAC,IAAI;EACjB,OAAO,EAAE,KAAK;EACd,eAAe,EAAE,UAAU;EAC3B,gBAAgB,EAAE,OAAiB;EACnC,WAAW,EAAE,MAAM;EACnB,YAAY,EAAE,EAAE;EAChB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "titulopagina.scss"
+    ],
+    "names": [],
+    "file": "titulopagina.css"
+}

@@ -1,0 +1,15 @@
+.tituloPagina {
+  color: black;
+  font-size: 3rem;
+  text-align: left;
+  border-style: none;
+  display: block;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #56cfa7;
+  font-weight: bolder;
+  padding-left: 1%;
+  height: 70px;
+}
+/*# sourceMappingURL=titulopagina.css.map */
