@@ -5,7 +5,7 @@
 }
 
 .tituloPagina{
-    color: black;
+    color:white;
     font-size: 3rem;
     text-align:left;
     border-style:none;
@@ -22,6 +22,7 @@
     height: 4vh;
     padding: 0%;
     margin: 0%;
+    color: white;
 }
 
 .navItem{
@@ -46,7 +47,7 @@ li{
     align-items: center;
 }
 body{
-    background-color: rgb(205, 243, 230);
+    background-color: rgb(201, 241, 227);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 95%;
     min-height: 100vh;
@@ -56,10 +57,9 @@ body{
 .texto{
     height: 40px;
     padding: 1% 2% 1% 2%;
+    color: rgb(24, 104, 77)
 }
-/* p{
-    padding-top: 20px;
-} */
+
 footer{
         font-size: 24px;
         background-color: rgb(13, 163, 113);
@@ -80,7 +80,8 @@ footer{
 .gridItemUno{
     height: 145px;
     padding-top: 30px;
-    text-align: justify; 
+    text-align: justify;
+    color: rgb(46, 109, 88);
 }
 .gridItemDos{
     height: 145px;    
@@ -94,7 +95,12 @@ footer{
 
 /* --productos-- */
 
-h2{text-align:center}
+h2{
+    text-align:center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
 
 .container{
     display: flex;
@@ -121,8 +127,11 @@ h2{text-align:center}
 }
 .yogur:hover{
     height: 300px;
-    transition: 3s
+    transition: 3s;
+    position: relative;
+    z-index: 1;
     }
+
 .listaQuesos{
     display: flex;
     align-items: center;
@@ -143,7 +152,9 @@ h2{text-align:center}
 }
 .queso:hover{
     height: 300px;
-    transition: 3s
+    transition: 3s;
+    position: relative;
+    z-index: 1;
 }
 .listaJugos{
     display: flex;
@@ -165,16 +176,18 @@ h2{text-align:center}
 }
 .jugo:hover{
     height: 300px;
-    transition: 3s
+    transition: 3s;
+    position: relative;
+    z-index: 1;
 }
 
 /* --productos-- */
 
-.table{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    height: 500px;
+h3{
+    text-decoration: underline;
+}
+.gridcontainerPrecios{
+    display: grid;
 }
 
 /* --contacto-- */
