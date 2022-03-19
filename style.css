@@ -35,13 +35,17 @@
     list-style: none;
 }
 
+nav{
+    height: 80vh;
+}
+
 li{
     margin-inline: 10px;
 }
 
 #foot{
+    display: block;
     justify-content: space-evenly;
-    position: relative;
     list-style: none;
     display: flex;
     align-items: center;
@@ -95,16 +99,14 @@ footer{
 
 /* --productos-- */
 
+.productos{
+    height: 80vh;
+}
 h2{
     text-align:center;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
-}
-
-.container{
-    display: flex;
-    height: 200px;
 }
 
 .listaYogures{
@@ -112,7 +114,7 @@ h2{
         align-items: center;
         margin: auto;
         list-style: none;
-        overflow-x: scroll;
+        overflow-x: scroll;;
         width: 88%;
 }
 
@@ -122,7 +124,7 @@ h2{
     padding: 5px;
     list-style: none;
     object-fit: contain;
-    height: 100px;
+    height: 85px;
     width: 100px;
 }
 .yogur:hover{
@@ -147,7 +149,7 @@ h2{
     padding: 5px;
     list-style: none;
     object-fit: contain;
-    height: 100px;
+    height: 85px;
     width: 100px;
 }
 .queso:hover{
@@ -171,7 +173,7 @@ h2{
     padding: 5px;
     list-style: none;
     object-fit: contain;
-    height: 100px;
+    height: 85px;
     width: 100px;
 }
 .jugo:hover{
@@ -181,17 +183,25 @@ h2{
     z-index: 1;
 }
 
-/* --productos-- */
+/* --precios-- */
 
 h3{
     text-decoration: underline;
 }
 .gridcontainerPrecios{
     display: grid;
+    height: 10vh;
+}
+
+/* --equipo-- */
+.equipo{
+    height: 80vh;
 }
 
 /* --contacto-- */
-
+.formulario{
+    height: 80vh
+}
 @media only screen and (max-width: 320px) {
     body{
         background-color: red;
